@@ -1,8 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1733667841
+::res://::1733675845
 icon.svg::CompressedTexture2D::8498971663192340638::1719064397::1733667844::1::::<><>::
-world.tscn::PackedScene::7951883997882951567::1719064397::0::1::::<><>::uid://cm0klh34hoj16::::res://assets/tiny_town.png<>uid://c5m6bdtqa4nhd::::res://player/player.tscn
-::res://assets/::1719064397
+world.tscn::PackedScene::7951883997882951567::1733675400::0::1::::<><>::uid://cm0klh34hoj16::::res://assets/tiny_town.png<>uid://c5m6bdtqa4nhd::::res://player/player.tscn<>res://time/time_system.gd<>res://time/date_time.gd
+::res://assets/::1733667844
 Kenney Mini Square.ttf::FontFile::3165681159431576628::1719064397::1733667844::1::::<><>::
 tiny_dungeon.png::CompressedTexture2D::491021881374862960::1719064397::1733667844::1::::<><>::
 tiny_town.png::CompressedTexture2D::5667344160800221495::1719064397::1733667844::1::::<><>::
@@ -10,3 +10,6 @@ ui_9patchrect.png::CompressedTexture2D::5623704593959289839::1719064397::1733667
 ::res://player/::1719064397
 player.gd::GDScript::-1::1719064397::0::1::::<>CharacterBody2D<>::
 player.tscn::PackedScene::6905163409795012429::1719064397::0::1::::<><>::res://player/player.gd<>uid://g84b82cfs0x5::::res://assets/tiny_dungeon.png
+::res://time/::1733675394
+date_time.gd::GDScript::-1::1733675394::0::1::::DateTime<>Resource<>::
+time_system.gd::GDScript::-1::1733671421::0::1::::TimeSystem<>Node<>::
