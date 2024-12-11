@@ -1,5 +1,4 @@
 res://world.tscn
-res://time/date_time.gd
+res://assets/label_settings.tres
 res://time/time_ui.tscn
 res://time/time_system.gd
-res://time/time_ui.gd

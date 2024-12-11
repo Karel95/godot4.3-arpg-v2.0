@@ -1,19 +1,20 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1733865998
+::res://::1733955800
 icon.svg::CompressedTexture2D::8498971663192340638::1719064397::1733667844::1::::<><>::
-world.tscn::PackedScene::7951883997882951567::1733865998::0::1::::<><>::uid://cm0klh34hoj16::::res://assets/tiny_town.png<>uid://c5m6bdtqa4nhd::::res://player/player.tscn<>res://time/time_system.gd<>res://time/date_time.gd
-::res://assets/::1733866567
+world.tscn::PackedScene::7951883997882951567::1733871715::0::1::::<><>::uid://cm0klh34hoj16::::res://assets/tiny_town.png<>uid://c5m6bdtqa4nhd::::res://player/player.tscn<>res://time/time_system.gd<>res://time/date_time.gd<>uid://bsge3ir45i1xu::::res://time/time_ui.tscn
+::res://assets/::1733868189
 Kenney Mini Square.ttf::FontFile::3165681159431576628::1719064397::1733667844::1::::<><>::
+label_settings.tres::LabelSettings::3993604224096754863::1733868189::0::1::::<><>::uid://bldqkn7i0li6o::::res://assets/Kenney Mini Square.ttf
 tiny_dungeon.png::CompressedTexture2D::491021881374862960::1719064397::1733667844::1::::<><>::
 tiny_town.png::CompressedTexture2D::5667344160800221495::1719064397::1733667844::1::::<><>::
 ui_9patchrect.png::CompressedTexture2D::5623704593959289839::1719064397::1733667844::1::::<><>::
-::res://assets/kenney_ui-pack-pixel-adventure/::1733866543
+::res://assets/kenney_ui-pack-pixel-adventure/::1733866573
 License.txt::TextFile::-1::1725452028::0::1::::<><>::
 Preview.png::CompressedTexture2D::4032983737514745555::1725452392::1733866573::1::::<><>::
 Sample.png::CompressedTexture2D::4702839109641338947::1725452392::1733866573::1::::<><>::
 ::res://assets/kenney_ui-pack-pixel-adventure/Tiles/::1725451544
 ::res://assets/kenney_ui-pack-pixel-adventure/Tiles/Large tiles/::1725451562
-::res://assets/kenney_ui-pack-pixel-adventure/Tiles/Large tiles/Thick outline/::1725451726
+::res://assets/kenney_ui-pack-pixel-adventure/Tiles/Large tiles/Thick outline/::1733866574
 tile_0000.png::CompressedTexture2D::957244038995576469::1725452122::1733866574::1::::<><>::
 tile_0001.png::CompressedTexture2D::3993605446152640728::1725452122::1733866574::1::::<><>::
 tile_0002.png::CompressedTexture2D::3895007463793431855::1725452122::1733866574::1::::<><>::
@@ -105,7 +106,7 @@ tile_0087.png::CompressedTexture2D::7965860103498161927::1725452126::1733866573:
 tile_0088.png::CompressedTexture2D::3854091488296270265::1725452126::1733866573::1::::<><>::
 tile_0089.png::CompressedTexture2D::5711229391216854629::1725452126::1733866573::1::::<><>::
 tile_0090.png::CompressedTexture2D::7367634099303446623::1725452126::1733866573::1::::<><>::
-::res://assets/kenney_ui-pack-pixel-adventure/Tiles/Large tiles/Thin outline/::1725451634
+::res://assets/kenney_ui-pack-pixel-adventure/Tiles/Large tiles/Thin outline/::1733866574
 tile_0000.png::CompressedTexture2D::2230868015850744868::1725452126::1733866573::1::::<><>::
 tile_0001.png::CompressedTexture2D::289032340807552537::1725452126::1733866573::1::::<><>::
 tile_0002.png::CompressedTexture2D::5462295573810620889::1725452126::1733866573::1::::<><>::
@@ -198,7 +199,7 @@ tile_0088.png::CompressedTexture2D::5778034819912513954::1725452130::1733866574:
 tile_0089.png::CompressedTexture2D::5801154844953753534::1725452130::1733866574::1::::<><>::
 tile_0090.png::CompressedTexture2D::3936071958258520296::1725452130::1733866574::1::::<><>::
 ::res://assets/kenney_ui-pack-pixel-adventure/Tiles/Small tiles/::1725451564
-::res://assets/kenney_ui-pack-pixel-adventure/Tiles/Small tiles/Thick outline/::1725451688
+::res://assets/kenney_ui-pack-pixel-adventure/Tiles/Small tiles/Thick outline/::1733866574
 tile_0000.png::CompressedTexture2D::4177483362918354522::1725452130::1733866574::1::::<><>::
 tile_0001.png::CompressedTexture2D::7984063398452780142::1725452130::1733866574::1::::<><>::
 tile_0002.png::CompressedTexture2D::7842938775946785002::1725452130::1733866574::1::::<><>::
@@ -360,7 +361,7 @@ tile_0157.png::CompressedTexture2D::890471545506001045::1725452138::1733866573::
 tile_0158.png::CompressedTexture2D::6205720978810257344::1725452138::1733866573::1::::<><>::
 tile_0159.png::CompressedTexture2D::578834782458191278::1725452138::1733866573::1::::<><>::
 tile_0160.png::CompressedTexture2D::8772778961993411142::1725452138::1733866573::1::::<><>::
-::res://assets/kenney_ui-pack-pixel-adventure/Tiles/Small tiles/Thin outline/::1725451586
+::res://assets/kenney_ui-pack-pixel-adventure/Tiles/Small tiles/Thin outline/::1733866573
 tile_0000.png::CompressedTexture2D::4426970461050267656::1725452138::1733866573::1::::<><>::
 tile_0001.png::CompressedTexture2D::5931517286697037065::1725452138::1733866573::1::::<><>::
 tile_0002.png::CompressedTexture2D::9078151269183268930::1725452138::1733866573::1::::<><>::
@@ -525,24 +526,25 @@ tile_0160.png::CompressedTexture2D::2997112683532491837::1725452144::1733866573:
 ::res://assets/kenney_ui-pack-pixel-adventure/Tilesheets/::1725451550
 ::res://assets/kenney_ui-pack-pixel-adventure/Tilesheets/Large tiles/::1725452230
 Tilesheet.txt::TextFile::-1::1725452250::0::1::::<><>::
-::res://assets/kenney_ui-pack-pixel-adventure/Tilesheets/Large tiles/Thick outline/::1725451720
+::res://assets/kenney_ui-pack-pixel-adventure/Tilesheets/Large tiles/Thick outline/::1733866573
 tilemap.png::CompressedTexture2D::8531721299351165871::1725452098::1733866573::1::::<><>::
 tilemap_packed.png::CompressedTexture2D::2110319474604123165::1725452098::1733866573::1::::<><>::
-::res://assets/kenney_ui-pack-pixel-adventure/Tilesheets/Large tiles/Thin outline/::1725451628
+::res://assets/kenney_ui-pack-pixel-adventure/Tilesheets/Large tiles/Thin outline/::1733866573
 tilemap.png::CompressedTexture2D::44419450537013520::1725452098::1733866573::1::::<><>::
 tilemap_packed.png::CompressedTexture2D::8788281469394527198::1725452098::1733866573::1::::<><>::
 ::res://assets/kenney_ui-pack-pixel-adventure/Tilesheets/Small tiles/::1725451572
 Tilesheet.txt::TextFile::-1::1725451280::0::1::::<><>::
-::res://assets/kenney_ui-pack-pixel-adventure/Tilesheets/Small tiles/Thick outline/::1725451680
+::res://assets/kenney_ui-pack-pixel-adventure/Tilesheets/Small tiles/Thick outline/::1733866573
 tilemap.png::CompressedTexture2D::6261723530783977959::1725452098::1733866573::1::::<><>::
 tilemap_packed.png::CompressedTexture2D::3287514369756774696::1725452098::1733866573::1::::<><>::
-::res://assets/kenney_ui-pack-pixel-adventure/Tilesheets/Small tiles/Thin outline/::1725451576
+::res://assets/kenney_ui-pack-pixel-adventure/Tilesheets/Small tiles/Thin outline/::1733866573
 tilemap.png::CompressedTexture2D::4235234308912143167::1725452098::1733866573::1::::<><>::
 tilemap_packed.png::CompressedTexture2D::435944964739349410::1725452098::1733866573::1::::<><>::
 ::res://player/::1719064397
 player.gd::GDScript::-1::1719064397::0::1::::<>CharacterBody2D<>::
 player.tscn::PackedScene::6905163409795012429::1719064397::0::1::::<><>::res://player/player.gd<>uid://g84b82cfs0x5::::res://assets/tiny_dungeon.png
-::res://time/::1733866256
-date_time.gd::GDScript::-1::1733865998::0::1::::DateTime<>Resource<>::
-time_ui.tscn::PackedScene::3662499453708984458::1733866256::0::1::::<><>::
-time_system.gd::GDScript::-1::1733671421::0::1::::TimeSystem<>Node<>::
+::res://time/::1733871715
+date_time.gd::GDScript::-1::1733871045::0::1::::DateTime<>Resource<>::
+time_system.gd::GDScript::-1::1733869622::0::1::::TimeSystem<>Node<>::
+time_ui.gd::GDScript::-1::1733871689::0::1::::<>Control<>::
+time_ui.tscn::PackedScene::3662499453708984458::1733871715::0::1::::<><>::res://time/time_ui.gd<>uid://dxocbvmm0mrsx::::res://assets/kenney_ui-pack-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0031.png<>uid://bw5scwjtfqnlv::::res://assets/label_settings.tres<>uid://cmefufsn8n0dn::::res://assets/ui_9patchrect.png

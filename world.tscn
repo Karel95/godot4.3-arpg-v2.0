@@ -188,7 +188,6 @@ position = Vector2(115, 107)
 [node name="TimeSystem" type="Node" parent="."]
 script = ExtResource("3_n8ebr")
 date_time = SubResource("Resource_ws54b")
-ticks_per_second = 1
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 

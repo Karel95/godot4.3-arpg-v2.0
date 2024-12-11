@@ -78,6 +78,7 @@ text = "99"
 label_settings = ExtResource("2_83ffo")
 
 [node name="dots2" type="Label" parent="ClockControl"]
+layout_mode = 0
 offset_left = 47.0
 offset_right = 51.0
 offset_bottom = 23.0
@@ -85,6 +86,7 @@ text = ":"
 label_settings = ExtResource("2_83ffo")
 
 [node name="secs" type="Label" parent="ClockControl"]
+layout_mode = 0
 offset_left = 52.0
 offset_right = 72.0
 offset_bottom = 23.0
