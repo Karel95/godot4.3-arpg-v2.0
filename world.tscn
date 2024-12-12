@@ -1,10 +1,11 @@
-[gd_scene load_steps=9 format=4 uid="uid://dlj7mrar0pn24"]
+[gd_scene load_steps=12 format=4 uid="uid://dlj7mrar0pn24"]
 
 [ext_resource type="Texture2D" uid="uid://cm0klh34hoj16" path="res://assets/tiny_town.png" id="1_e2grb"]
 [ext_resource type="PackedScene" uid="uid://c5m6bdtqa4nhd" path="res://player/player.tscn" id="2_tr7g3"]
 [ext_resource type="Script" path="res://time/time_system.gd" id="3_n8ebr"]
 [ext_resource type="Script" path="res://time/date_time.gd" id="4_sh26h"]
 [ext_resource type="PackedScene" uid="uid://bsge3ir45i1xu" path="res://time/time_ui.tscn" id="5_pvdk5"]
+[ext_resource type="Script" path="res://time/directional_light_2d.gd" id="6_3kpqq"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4lu8u"]
 texture = ExtResource("1_e2grb")
@@ -160,7 +161,21 @@ sources/2 = SubResource("TileSetAtlasSource_4lu8u")
 script = ExtResource("4_sh26h")
 seconds = 0
 minutes = 0
-hours = 0
+hours = 5
+days = 0
+
+[sub_resource type="Resource" id="Resource_msoqj"]
+script = ExtResource("4_sh26h")
+seconds = 0
+minutes = 0
+hours = 6
+days = 0
+
+[sub_resource type="Resource" id="Resource_jf47n"]
+script = ExtResource("4_sh26h")
+seconds = 0
+minutes = 0
+hours = 18
 days = 0
 
 [node name="World" type="Node2D"]
@@ -201,4 +216,14 @@ offset_right = -7.0
 offset_bottom = 58.0
 grow_horizontal = 0
 
+[node name="DirectionalLight2D" type="DirectionalLight2D" parent="." node_paths=PackedStringArray("time_system")]
+blend_mode = 2
+script = ExtResource("6_3kpqq")
+day_color = Color(1, 1, 1, 1)
+night_color = Color(0.158327, 0.284563, 0.551944, 1)
+day_start = SubResource("Resource_msoqj")
+night_start = SubResource("Resource_jf47n")
+time_system = NodePath("../TimeSystem")
+
 [connection signal="updated" from="TimeSystem" to="CanvasLayer/TimeGui" method="_on_time_system_updated"]
+[connection signal="updated" from="TimeSystem" to="DirectionalLight2D" method="_on_time_system_updated"]

@@ -26,3 +26,11 @@ func increase_by_sec(delta_seconds: float) -> void:
 	
 	#print_debug(str(days) + ':' + str(hours) + ':' + str(minutes) + ':' + str(seconds))
 	
+
+func diff_without_days(other_time: DateTime) -> int:
+	var diff_hours = hours - other_time.hours
+	var diff_minutes = minutes - other_time.minutes + diff_hours * 60
+	var diff_seconds = minutes - other_time.seconds + diff_minutes * 60
+	
+	return diff_seconds
+	
